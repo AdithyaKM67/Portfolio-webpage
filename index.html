@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+    <title>My Portfolio Webpage</title>
+</head>
+<body>
+    
+
+<a class="smoothScroll" href="#welcome"><img id="btt" class="img-responsive" src="back-to-the-top-29.svg"></a>
+
+<div id="myNav" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <div class="overlay-content">
+    <a class="smoothScroll" href="#welcome" onclick="closeNav()">Home</a>
+    <a class="smoothScroll" href="#about" onclick="closeNav()">About</a>
+    <a class="smoothScroll" href="#portfolio" onclick="closeNav()">Portfolio</a>
+  </div>
+
+</div>
+
+<span id="openmenu" onclick="openNav()"><b>Menu</b></span>
+
+<center>
+  <!-- WELCOME -->
+  <div id="welcome">
+    <h1>ADITHYA K M</h1>
+    <h3><b>Web Developer</b></h3>
+    <a class="smoothScroll" href="#about"><img id="press" src="bottom-14.svg"></a>
+  </div>
+</center>
+
+<!-- ABOUT -->
+<div id="about">
+  <h1>About Me</h1>
+  <center>
+    <div id="self">
+      <img class="img-responsive" src="me.jpg">
+    </div>
+  </center>
+  <br>
+  <p>Hi! I'm Adithya K M. 
+     <br><br> Fueled by my love for web development, I pour my energy into crafting code that makes ideas real.<br><br> 
+     When I step back from the screen, I'm usually at the gym, getting stronger, or on the football field, playing my heart out.
+    <br><br>If you'd like, scroll down to see some examples of my work!<br><br></p>
+  <br><br>
+  <span id="email">
+    <img src="email-106.svg"> kmadithya6@gmail.com </span>
+    <span id="portScroll">
+        <a class="smoothScroll" href="https://www.linkedin.com/in/adithya-k-m-302b89287"><img src="linkedin-99.svg">LinkedIn</a></span>
+  <span id="portScroll">
+    <a class="smoothScroll" href="#portfolio"><img src="portfolio.svg"> View My Portfolio</a></span>
+</div>
+
+<div id="portfolio">
+  <h1>Portfolio</h1>
+  <h3>Here you'll find some projects I've worked on! When clicked, it will take you to the GitHub repository for the project..</h3>
+  <br>
+  <center>
+    <div id="port" class="container">
+      <table>
+          <tr>
+            <a target="_blank" href="https://github.com/AdithyaKM67/Church-Management"><img class="img-responsive thumbnail" src="churchmanagement.png"></a>
+          </tr>
+          <tr>
+            <a target="_blank" href="https://github.com/AdithyaKM67/Health-Records-Hub-"><img class="img-responsive thumbnail" src="hrh.png"></a>
+          </tr>
+          <tr>
+            <a target="_blank" href="https://github.com/AdithyaKM67/Change-Management"><img class="img-responsive thumbnail" src="changemanagement.png"></a>
+          </tr>
+      </table>
+    </div>
+  </center>
+</div>
+</body>
+</html>
